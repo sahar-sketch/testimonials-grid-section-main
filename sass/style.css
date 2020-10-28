@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #EDF2F8;
+}
+
+.firstchart {
+  background-color: #7541c8;
+  font-size: 13px;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% top;
+  padding: 30px 30px 10px;
+  margin: 70px 20px 20px;
+  border-radius: 10px;
+}
+
+.firstchart .textimg1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstchart .textimg1 h1 {
+  Font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+
+.firstchart .textimg1 h1 span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.firstchart .textimg1 img {
+  border-radius: 100px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin-right: 13px;
+}
+
+.firstchart .first {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.firstchart .second {
+  color: rgba(255, 255, 255, 0.507);
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.secondchart {
+  background-color: #48556a;
+  font-size: 13px;
+  padding: 30px 30px 15px;
+  margin: 0px 20px 20px;
+  border-radius: 10px;
+}
+
+.secondchart .textimg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondchart .textimg2 h1 {
+  font-weight: 400;
+  Font-size: 13px;
+  color: white;
+}
+
+.secondchart .textimg2 h1 span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.secondchart .textimg2 img {
+  border-radius: 100px;
+  height: 35px;
+  margin-right: 13px;
+}
+
+.secondchart .first {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.secondchart .second {
+  color: rgba(255, 255, 255, 0.507);
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.thirdchart {
+  background-color: white;
+  font-size: 13px;
+  padding: 30px 30px 15px;
+  margin: 0px 20px 20px;
+  border-radius: 10px;
+}
+
+.thirdchart .textimg3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thirdchart .textimg3 h1 {
+  Font-size: 13px;
+  color: #19212e;
+}
+
+.thirdchart .textimg3 h1 span {
+  color: rgba(25, 33, 46, 0.5);
+}
+
+.thirdchart .textimg3 img {
+  border-radius: 100px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin-right: 13px;
+}
+
+.thirdchart .first {
+  color: #48556a;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.thirdchart .second {
+  color: rgba(72, 85, 106, 0.671);
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.forthchart {
+  background-color: #19212e;
+  font-size: 13px;
+  padding: 30px 30px 15px;
+  margin: 0px 20px 20px;
+  border-radius: 10px;
+}
+
+.forthchart .textimg4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forthchart .textimg4 h1 {
+  Font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.forthchart .textimg4 h1 span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.forthchart .textimg4 img {
+  border-radius: 100px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin-right: 13px;
+}
+
+.forthchart .first {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.forthchart .second {
+  color: rgba(255, 255, 255, 0.507);
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.fifthchart {
+  background-color: white;
+  font-size: 13px;
+  padding: 30px 30px 15px;
+  margin: 0px 20px 20px;
+  border-radius: 10px;
+}
+
+.fifthchart .textimg5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fifthchart .textimg5 h1 {
+  Font-size: 13px;
+  color: #19212e;
+}
+
+.fifthchart .textimg5 h1 span {
+  color: rgba(25, 33, 46, 0.5);
+}
+
+.fifthchart .textimg5 img {
+  border-radius: 100px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin-right: 13px;
+}
+
+.fifthchart .first {
+  color: #48556a;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.fifthchart .second {
+  color: rgba(72, 85, 106, 0.671);
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (min-width: 64em) {
+  .responsive {
+    width: 85%;
+    margin-left: 110px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(4fr, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(4fr, 1fr));
+    -webkit-column-gap: 5px;
+            column-gap: 5px;
+    row-gap: 5px;
+        grid-template-areas: "chart1 chart1 chart2 chart5" "chart3 chart4 chart4 chart5";
+  }
+}
+
+@media (min-width: 64em) {
+  .responsive .firstchart {
+    grid-area: chart1;
+    height: auto;
+    margin-top: 90px;
+    font-size: 14px;
+  }
+  .responsive .firstchart .first {
+    margin-bottom: 10px;
+  }
+  .responsive .secondchart {
+    grid-area: chart2;
+    padding-bottom: 0;
+    height: auto;
+    margin-top: 90px;
+    font-size: 16px;
+  }
+  .responsive .secondchart .first {
+    margin-bottom: 15px;
+  }
+  .responsive .thirdchart {
+    grid-area: chart3;
+    font-size: 16px;
+  }
+  .responsive .thirdchart .first {
+    margin-bottom: 20px;
+  }
+  .responsive .forthchart {
+    grid-area: chart4;
+    height: auto;
+    font-size: 13px;
+  }
+  .responsive .fifthchart {
+    grid-area: chart5;
+    margin-top: 90px;
+    height: auto;
+    width: 300px;
+    font-size: 16px;
+  }
+  .responsive .fifthchart .first {
+    margin-bottom: 30px;
+  }
+}
+
+.attribution {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

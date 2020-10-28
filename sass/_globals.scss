@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #EDF2F8;
+    
+}
+.firstchart{
+    background-color: $Moderate-violet;
+    font-size: 13px;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    padding: 30px 30px 10px;
+    margin:70px 20px 20px;
+    border-radius: 10px;
+    .textimg1{
+        
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+  h1{
+        Font-size: 14px;
+        color: white;
+        font-weight: 400;
+        span{
+            color: hsla(0, 0%, 100%, 0.5);
+        }
+    
+    }
+    img{
+        border-radius: 100px;
+        height: 35px;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        margin-right: 13px;
+    }
+  }
+
+  .first{
+    
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+  .second{
+    
+    color: rgba(255, 255, 255, 0.507);
+    margin-bottom: 20px;
+    line-height: 19px;
+    font-weight: 300;
+  }
+
+}
+
+.secondchart{
+    background-color: $Very-dark-grayish-blue;
+    font-size: 13px;
+    padding: 30px 30px 15px;
+    margin:0px 20px 20px;
+    border-radius: 10px;
+    .textimg2{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+  h1{
+        font-weight: 400;
+        Font-size: 13px;
+        color: white;
+        span{
+            color: hsla(0, 0%, 100%, 0.5);
+        }
+    
+    }
+    img{
+        border-radius: 100px;
+        height: 35px;
+        margin-right: 13px;
+    }
+  }
+
+  .first{
+    
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+  .second{
+    
+    color: rgba(255, 255, 255, 0.507);
+    margin-bottom: 20px;
+    line-height: 19px;
+    font-weight: 300;
+  }
+
+}
+
+.thirdchart{
+    background-color: white;
+    font-size: 13px;
+    padding: 30px 30px 15px;
+    margin:0px 20px 20px;
+    border-radius: 10px;
+    .textimg3{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+  h1{
+        Font-size: 13px;
+        color: $Very-dark-blackish-blue;
+        span{
+            color: hsla(217, 30%, 14%, 0.5);
+        }
+    
+    }
+    img{
+        border-radius: 100px;
+        height: 35px;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        margin-right: 13px;
+    }
+  }
+
+  .first{
+    
+    color:$Very-dark-grayish-blue;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-weight: 600;
+  }
+  .second{
+    
+    color: hsla(217, 19%, 35%, 0.671);
+    margin-bottom: 20px;
+    line-height: 19px;
+    font-weight: 500;
+  }
+
+}
+
+.forthchart{
+    background-color: $Very-dark-blackish-blue;
+    font-size: 13px;
+    padding: 30px 30px 15px;
+    margin:0px 20px 20px;
+    border-radius: 10px;
+    .textimg4{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+  h1{
+        Font-size: 13px;
+        font-weight: 400;
+        color: white;
+        span{
+            color: hsla(0, 0%, 100%, 0.5);
+        }
+    
+    }
+    img{
+        border-radius: 100px;
+        height: 35px;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        margin-right: 13px;
+    }
+  }
+
+  .first{
+    
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+  .second{
+    
+    color: rgba(255, 255, 255, 0.507);
+    margin-bottom: 20px;
+    line-height: 19px;
+    font-weight: 300;
+  }
+
+}
+
+
+.fifthchart{
+    background-color: white;
+    font-size: 13px;
+    padding: 30px 30px 15px;
+    margin:0px 20px 20px;
+    border-radius: 10px;
+    .textimg5{
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+  h1{
+        Font-size: 13px;
+        color: $Very-dark-blackish-blue;
+        span{
+            color: hsla(217, 30%, 14%, 0.5);
+        }
+    
+    }
+    img{
+        border-radius: 100px;
+        height: 35px;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        margin-right: 13px;
+    }
+  }
+
+  .first{
+    
+    color:$Very-dark-grayish-blue;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 23px;
+    font-weight: 600;
+  }
+  .second{
+    
+    color: hsla(217, 19%, 35%, 0.671);
+    margin-bottom: 20px;
+    line-height: 19px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+}
+
+.responsive{
+    @include breakpoint-up(large){
+        width: 85%;
+        margin-left:110px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(4fr,1fr));
+        column-gap: 5px;
+        row-gap: 5px;
+        grid-template-areas: 
+        "chart1 chart1 chart2 chart5"
+        "chart3 chart4 chart4 chart5";
+        
+    }
+
+    @include breakpoint-up(large){
+    .firstchart{
+        grid-area: chart1;
+        height: auto;
+        margin-top: 90px;
+        font-size: 14px;
+        .first{
+            margin-bottom: 10px;
+        }
+        
+    }
+    .secondchart{
+        grid-area: chart2;
+        padding-bottom: 0;
+        height: auto;
+        margin-top: 90px;
+        font-size: 16px;
+
+        .first{
+            margin-bottom: 15px;
+        }
+    }
+    .thirdchart{
+        grid-area: chart3;
+        font-size: 16px;
+        .first{
+            margin-bottom: 20px;
+        }
+    }
+    .forthchart{
+        grid-area: chart4;
+        height: auto;
+        font-size: 13px;
+    }
+    .fifthchart{
+        grid-area: chart5;
+        margin-top: 90px;
+        height: auto;
+        width: 300px;
+        font-size: 16px;
+        .first{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+}
+
+.attribution{
+    text-align: center
+}
